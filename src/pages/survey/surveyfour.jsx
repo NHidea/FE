@@ -385,8 +385,6 @@ const PostQData = async () => {
             '/api/mbti/answers',
             body
         );
-        console.log('API 호출 성공:', response.data);
-        // 다음 페이지로 이동 등 성공 시 로직 추가
     } catch (error) {
         console.error('질문 API 호출 중 오류 발생:', error);
     } finally {
